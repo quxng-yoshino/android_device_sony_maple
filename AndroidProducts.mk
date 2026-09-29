@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_maple.mk
+    $(LOCAL_DIR)/custom_maple.mk
