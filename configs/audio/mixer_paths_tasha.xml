@@ -3065,6 +3065,12 @@
         <ctl name="SLIM_0_TX Format" value="S24_LE" />
     </path>
 
+    <!-- The HAL routes voice recognition / hotword capture here (single mic,
+         no fluence). Sony's file lacked it, so that capture failed. -->
+    <path name="voice-rec-mic">
+        <path name="handset-mic" />
+    </path>
+
     <path name="camcorder-mic">
         <path name="camcorder-mic-common" />
         <ctl name="DEC8 Volume" value="101" />
